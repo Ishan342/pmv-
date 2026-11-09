@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.local
+.env.*.local
+.vercel/
+*.tsbuildinfo
+.DS_Store
+# Private workforce and equipment imports: NEVER commit these to the public repo
+scripts/legacy-records.json
+supabase/legacy-import.sql
